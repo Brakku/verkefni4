@@ -1,0 +1,49 @@
+
+nav{
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.mainid{
+    display: grid;
+    background-color: rgb(70, 70, 70);
+    padding: 1em;
+    gap: 1em;
+}
+
+.mainid div{
+    background-color: rgb(118, 118, 118);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.mainid div p:nth-child(3){
+    margin-bottom: 0.6em;
+}
+
+.mainid div img{
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 10em;
+}
+
+.mainid div p{
+    color: white;
+    text-align: center;
+    
+}
+
+.mainid div button{
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
