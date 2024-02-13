@@ -38,7 +38,14 @@ function elremover(id){
 
 function heild(){
     arrayLength=data["vorur"].length;
-    document.getElementById("heildar").innerHTML="heildartala vara: "+arrayLength;
+    let sum = 0;
+    for (var i = 0; i < arrayLength; i++) {
+        let str = data["vorur"][i]["verð"]
+        let matches = str.match(/(\d+)/);
+        sum=sum+Number(matches[0])
+    };
+
+    document.getElementById("heildar").innerHTML="heildarverð vara: "+sum;
 };
 
 function eladder(i){
